@@ -113,7 +113,7 @@ def rent_car_ui():
             db.commit()
 
             # Execute Ethereum transaction
-            send_ethereum_transaction(sender_address, receiver_address, amount, private_key='2ced69751e35eb9ecfaf58075eaefd195eed7e7f639e4c87b7031b84cb7d9de7')
+            send_ethereum_transaction(sender_address, receiver_address, amount, private_key='Use your own private key')
 
             messagebox.showinfo("Success", "Car rented successfully!")
         else:
@@ -265,3 +265,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
